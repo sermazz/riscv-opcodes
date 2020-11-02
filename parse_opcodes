@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 from __future__ import print_function
 from builtins import hex
@@ -35,6 +35,9 @@ arglut['bimm12lo'] = (11,7)
 arglut['zimm'] = (19,15)
 arglut['shamt'] = (25,20)
 arglut['shamtw'] = (24,20)
+
+# for xpulpimg
+arglut['imm5'] = (24,20)
 
 # for vectors
 arglut['vd'] = (11,7)
